@@ -6,5 +6,6 @@ public class Rohit
         BufferedInputStream fout = new BufferedInputStream(new FileWriter("a.txt"));
         fout.write(9.3);
         fout.write(2.5);
+		System.out.println("Hello java");
     }
 }
